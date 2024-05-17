@@ -1,12 +1,16 @@
 import React from "react";
 
+// Categories component manages the selection of categories for pizzas
 function Categories() {
+    // Use local state to keep track of the active category index
     const [activeIndex, setActiveIndex] = React.useState(0);
 
+    // onClickCategory handles setting the active index when a category is clicked
     const onClickCategory = (index) => {
         setActiveIndex(index)
     }
 
+    // Render the categories as list items, applying the "active" class if the index matches the active index
     return (
         <div className="categories">
             <ul>
