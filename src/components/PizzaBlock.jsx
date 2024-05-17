@@ -63,3 +63,4 @@ function PizzaBlock({ title, prise }) {
 
 // Export the `PizzaBlock` component for use in other modules
 export default PizzaBlock;
+
