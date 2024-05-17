@@ -4,7 +4,7 @@ import React from "react";
 function Sort() {
     return (
         <div className="sort"> {/* The container for the Sort component */}
-            <div className="sort__label"> {/* The "Sort by" label */}
+            <div className="sort__label"> {/* The "Sort by" label container */}
                 <svg
                     width="10"
                     height="6"
@@ -33,3 +33,4 @@ function Sort() {
 }
 
 export default Sort;
+
